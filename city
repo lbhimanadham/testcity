@@ -4,3 +4,15 @@
     <title>City Guide: Seattle, WA</title> <!--Title of city-->
     <meta charset="utf-8">
 </head>
+<body>
+    <header>
+        <h1>Welcome to Seattle, WA!</h1> <!--Header for city of interest-->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#ammenties">Ammenties</a></li>
+                <li><a href="#eateries">Eateries</a></li>
+            </ul>
+        </nav>
+    </header>
+<body>
