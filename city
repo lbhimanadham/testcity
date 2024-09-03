@@ -15,4 +15,133 @@
             </ul>
         </nav>
     </header>
-<body>
+
+    <main>
+        <section id="about">
+            <header>
+                <h2> Exploring Seattle</h2>
+            </header>
+            <img src="spaceneedle.jpg" alt="Space Needle" width="600">
+            <p> Seattle is home to many attractions, some of the most popular include <strong>Space Needle</strong> and <strong>Pike Place Market</strong>. Located in the Pacific Northwest, surrounded by stunning landscapes such as the Puget Sound and the Cascade Mountains. Seattle is a large hub for technological advancement and innovation and home to many tech giants such as Microsoft and Amazon. The city is full of a vibrant culture along with historic charm, diversity, music/arts scene, making this city a very enticing place to live and visit.</p>
+            <header>
+                <h3> Geographical Map of City</h3>
+            </header>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172153.7238305288!2d-122.50494835798902!3d47.608596484747395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1724989032009!5m2!1sen!2sus" title="Seattle Map" width="600" height="450"></iframe>"
+        </section>
+
+        <section id="ammenties">
+            <header>
+                <h2> Attractions and activities throughout the city</h2>
+            </header>
+            <div>
+                <h3> Pike Place Market </h3>
+            <p> Pike Place Market is one of seattle's oldest public market's having been founded in 1907. It is known for fish throwing in stalls, an iconic sign, and a diverse set of vendors which sell seafood, produce, and much more. Some quick attractions include the gum wall, market arcade, and a very popular dish in the Pike Place Chowder. It is a very vibrant location which not only has appeal for tourists but is also a very important location for the local population as well.</p>
+            <img src="pikeplacemarketseattle.jpg" alt="Pike Place Market" width="600">
+            </div>
+            <div>
+                <h3> Museum of Pop Culture (MoPOP)</h3>
+            <p> The Museum of Pop Culture is a archictectural marvel having been designed by Frank Gehry and has a very unique flavor to it with the use of unique mediums and colors. Exhibits in the museum include music, film, video games, and much more. The museum is a very outward display of contemporary pop culture and is a very singular museum in the type of exhibits and content which is displayed.</p>
+            <img src="museumofpopculture.jpg" alt="Museum of Pop Culture" width="600">
+            </div>
+            <div>
+                <h3> The Museum of Flight </h3>
+            <p> The Museum of Flight in Seattle is a large aerospace museum which includes many different exhibits showcasing the history of aviation. There are over 175 aircraft and spacecrafts included such as the Flying Fortress, the Concorde supersonic jet, the first presidential jet, etc. There are many interactive exhibits as well which include flight simulators and interactive displays. The museum is a very good representation of the everpresent aviation scene which is present in Seattle, WA.</p>
+            <img src="museumofflight.webp" alt="The Museum of Flight" width="600">
+            </div>
+         </section>
+
+        <section id="eateries">
+            <header>
+                <h2> Unique Bites of Seattle </h2>
+            </header>
+            <div>
+                <h3> The Chicken Supply </h3>
+            <p> This Filipino fried chicken shop located in Phinney Ridge was one of Seattle's best new restaurants of 2022 and one of the best fried chicken restaurants in the country. The restaurants owners Paolo Campbell and Donald Adams started this place after working many years in fine dining and decided to switch to a more casual eating experience. The fried chicken is also gluten-free and dairy-free.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col"><em>Menu Item</em></th>
+                        <th scope="col"><em>Price (Dollars)</em></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>The Wing (gf)</td>
+                        <td>$3.50</td>
+                    </tr>
+
+                    <tr>
+                        <td>The Drum (gf)</td>
+                        <td>$4.25</td>
+                    </tr>
+
+                    <tr>
+                        <td>The Thigh (gf)</td>
+                        <td>$8.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>The Stick (gf)</td>
+                        <td>$3.50</td>
+                    </tr>
+                </tbody>
+            </table>
+            <img src="chickensupplyoutside.jpg" alt="The Chicken Supply" width="600">
+            </div>
+            <div>
+                <h3> Starbucks Reserve </h3>
+            <p> The Starbucks Reserve located in the original starbucks store has a very unique experience different from usual starbucks locations. This includes speciality brews with methods such as siphon and pour over along with a sophisticated design which enhances the cofee tasting experience. Some of the speciality drinks are specific to season and include oleates and many others. The location as well gives a unique experience for all tourists.</p>
+            <img src="starbucksreserve.jpeg" alt="Starbucks Reserve" width="600">
+            </div>
+            <div>
+                <h3> Ascend Prime Steak and Sushi </h3>
+            <p> Ascend Prime Steak and Sushi located in the Skyview Observatory offers a unique high dining experience for diners along with a stunning view of the city. The menu specializes in prime steaks along with high end sushi cuts and rolls. THe atmosphere is elegant and has a emphasis on luxury along with comfort. This restaurant is unique for the views it can offer paired with the high end dining experience.</p>
+            <img src="ascend.jpeg" alt="Ascend Prime Steak and Sushi" width="600">
+            </div>
+        </section>
+
+        <section id="Contact_us">
+            <header>
+                <h2> Contact us </h2>
+            </header>
+            <form action="submit_form.php" method="post">
+                <fieldset>
+                    <legend> Personal details </legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend> How many times did you visit this page </legend>
+                    <label for="times_visited"> Frequency:</label>
+                    <select id="times_visited" name="times visited">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3 or more">3 or more</option>
+                    </select><br>
+                </fieldset>
+
+                <fieldset>
+                <legend> Which Activity did you most prefer?</legend>
+                <input type="radio" id="Pike_Place_Market" value="Pike Place Market">
+                <label for="Pike_Place_Market">Pike Place Market</label>
+                <input type="radio" id="The_Museum_of_Flight" value="The Museum of Flight">
+                <label for="The_Museum_of_Flight">The Museum of Flight</label>
+                <input type="radio" id="The_Chicken_Supply" value="The Chicken Supply">
+                <label for="The_Chicken_Supply">The Chicken Supply</label>
+                </fieldset>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p> For further information regarding Seattle, WA visit this site: <a href="https://www.seattle.gov">Seattle Website</a></p>
+    </footer>
+</body>
+</html>
+
